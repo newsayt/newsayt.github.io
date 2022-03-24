@@ -9,10 +9,19 @@
 </head>
 <body>
 <div id="container">
-<div id="Osnova2" style="position:absolute;text-align:left;left:0px;top:0px;width:970px;height:1027px;z-index:1;">
-<picture id="wb_Polki" style="position:absolute;left:0px;top:176px;width:500px;height:570px;z-index:0">
+<div id="Osnova2" style="position:absolute;text-align:left;left:0px;top:0px;width:970px;height:1027px;z-index:2;">
+<picture id="wb_Polki" style="position:absolute;left:470px;top:176px;width:500px;height:570px;z-index:0">
 <img src="images/polki.png" id="Polki" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;" srcset="">
 </picture>
+<div id="Html1" style="position:absolute;left:26px;top:0px;width:300px;height:700px;z-index:1">
+<!-- Put this script tag to the <head> of your page -->
+<script src="https://vk.com/js/api/openapi.js?168"></script>
+
+<!-- Put this div tag to the place, where the Group block will be -->
+<div id="vk_groups"></div>
+<script>
+  VK.Widgets.Group("vk_groups", {mode: 4, no_cover: 1, width: 350, height: 750, color2: "transparent", color3: "5181B8"}, 164564671);
+</script></div>
 </div>
 </div>
 </body>
